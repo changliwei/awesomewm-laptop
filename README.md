@@ -3,7 +3,7 @@ awesome-laptop
 
 Configuration files for Awesome Window Manager.
 
-https://github.com/optichip/awesome-laptop
+https://github.com/optichip/awesomewm-laptop
 
 Depends on:  git, awesome, dmenu, terminus-font, conky, rxvt-unicode, ttf-envy-code-r, and 
 lots of other stuff.
