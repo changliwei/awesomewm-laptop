@@ -1,0 +1,11 @@
+URxvt*font: xft:terminus:pixelsize=16:antialias=false
+URxvt*iconFile: /usr/share/icons/gnome/16x16/apps/gnome-terminal.png
+URxvt*background: rgba:1111/1111/1111/0000
+URxvt*foreground: #d3d3d3
+URxvt*transparent: false
+Urxvt*fading: 10
+Urxvt*fadeColor: #a146ff
+URxvt*perl-ext-common:  default,clipboard,matcher
+*underlineColor: #1691CF
+URxvt*matcher.button:   1
+URxvt*url-launcher: /usr/bin/firefox

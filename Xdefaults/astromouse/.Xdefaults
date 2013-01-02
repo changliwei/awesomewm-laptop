@@ -1,0 +1,57 @@
+! Xft settings ---------------------------------------------------------------
+
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
+!-------------------------------------------------------------------------------
+!
+!	U R X V T - Settings
+!
+URxvt*saveLines: 3100
+URxvt*geometry:					80x25
+URxvt*borderLess:				false
+URxvt*depth:					32
+URxvt*scrollBar_right:				false
+URxvt*scrollBar:		      false
+URxvt*cursorBlink:				true
+URxvt*cursorUnderline:				true
+URxvt*scrollColor:				#111111
+
+URxvt*internalborder: 6
+
+! rxvt-unicode
+URxvt*urgentOnBell:  true
+
+*color0:  #1c1c1c
+*color8:  #3d3a3a
+*color1:  #d770af
+*color9:  #d28abf
+*color2 : #9acc79
+*color10: #8fb676
+*color3:  #d0d26b
+*color11: #c8bc45
+*color4 : #77b6c5
+*color12: #8fa7b9
+*color5:  #a488d9
+*color13: #bd89de
+*color6:  #7fcab3
+*color14: #6ec2a8
+*color7:  #8d8d8d
+*color15: #dad3d3
+
+! enable clickable links
+URxvt*urlLauncher: firefox
+URxvt*matcher.button: 1
+URxvt*matcher.pattern.1: \\b(mailto|http|https|ftp|file):[/]*[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+URxvt*matcher.pattern.2: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+
+URxvt*tabbed.tabbar-fg: 11
+URxvt*tabbed.tabbar-bg: 0
+URxvt*tabbed.tab-fg:    14
+URxvt*tabbed.tab-bg:    0
+
+! include font and bg/fg colors
+# include ".config/awesome/.urxvt_font"

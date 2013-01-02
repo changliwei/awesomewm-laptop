@@ -1,0 +1,73 @@
+! Xft settings ---------------------------------------------------------------
+
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
+!-------------------------------------------------------------------------------
+!
+!	U R X V T - Settings
+!
+URxvt*skipBuiltinGlyphs: False
+URxvt*saveLines: 3100
+URxvt*geometry:					80x25
+URxvt*borderLess:				false
+URxvt*depth:					32
+URxvt*scrollBar_right:				false
+URxvt*scrollBar:		      false
+URxvt*cursorBlink:				true
+URxvt*cursorUnderline:				true
+URxvt*cursorColor:  #ff9900
+URxvt*cursorColor2: #000000
+URxvt*scrollColor:				#111111
+URxvt*internalborder: 6
+
+URxvt*colorIT:      #87af5f
+URxvt*colorBD:      #d7d7d7
+URxvt*colorUL:      #87afd7
+
+! rxvt-unicode
+URxvt*urgentOnBell:  true
+
+! terminal colours
+URxvt*background: #161616
+URxvt*foreground: #969896
+! black
+URxvt*color0: #282a2e
+URxvt*color8: #373b41
+! red
+URxvt*color1: #A54242
+URxvt*color9: #cc6666
+! green
+URxvt*color2: #8C9440
+URxvt*color10: #b5bd68
+! yellow
+URxvt*color3: #de935f
+URxvt*color11: #f0c674
+! blue
+URxvt*color4: #5F819D
+URxvt*color12: #81a2be
+! magenta
+URxvt*color5: #85678F
+URxvt*color13: #b294bb
+! cyan
+URxvt*color6: #5E8D87
+URxvt*color14: #8abeb7
+! white
+URxvt*color7: #969896
+URxvt*color15: #c5c8c6
+
+! enable clickable links
+URxvt*matcher.button: 1
+URxvt*matcher.pattern.1: \\b(mailto|http|https|ftp|file):[/]*[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+URxvt*matcher.pattern.2: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+
+URxvt*tabbed.tabbar-fg: 11
+URxvt*tabbed.tabbar-bg: 0
+URxvt*tabbed.tab-fg:    14
+URxvt*tabbed.tab-bg:    0
+
+! include font and bg/fg colors
+# include ".config/awesome/.urxvt_font"

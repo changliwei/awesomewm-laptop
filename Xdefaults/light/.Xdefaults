@@ -1,0 +1,66 @@
+! Xft settings ---------------------------------------------------------------
+
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
+!-------------------------------------------------------------------------------
+!
+!	U R X V T - Settings
+!
+URxvt*saveLines: 3100
+URxvt*geometry:					80x25
+URxvt*borderLess:				false
+URxvt*depth:					32
+URxvt*scrollBar_right:				false
+URxvt*scrollBar:		      false
+URxvt*font:					xft:Envy Code R-10
+URxvt*cursorBlink:				true
+URxvt*cursorUnderline:				true
+URxvt*scrollColor:				#111111
+URxvt*perl-ext-common:				default,clipboard,matcher
+URxvt*iconFile:    /home/pdq/.icons/elementary2/apps/32/terminal.svg
+
+URxvt*keysym.M-c:   perl:clipboard:copy
+URxvt*keysym.M-v:   perl:clipboard:paste
+URxvt*keysym.M-C-v: perl:clipboard:paste_escaped
+
+URxvt*internalborder: 6
+
+! rxvt-unicode
+URxvt*urgentOnBell:  true
+
+URxvt*transparent: false
+
+URxvt.foreground: #000000
+URxvt.background: #F2F2F2
+
+URxvt.color0 :  #252525
+URxvt.color1 :  #982929
+URxvt.color2 :  #739456
+URxvt.color3 :  #9A5E10
+URxvt.color4 :  #25414f
+URxvt.color5 :  #6f4f70
+URxvt.color6 :  #3c6f69
+URxvt.color7 :  #ffffff
+URxvt.color8 :  #666666
+URxvt.color9 :  #c14b4b
+URxvt.color10:  #6ca318
+URxvt.color11:  #7f672e
+URxvt.color12:  #07335E
+URxvt.color13:  #a971a7
+URxvt.color14:  #008D90
+URxvt.color15:  #34503B
+
+! enable clickable links
+URxvt*urlLauncher: firefox
+URxvt*matcher.button: 1
+URxvt*matcher.pattern.1: \\b(mailto|http|https|ftp|file):[/]*[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+URxvt*matcher.pattern.2: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+
+URxvt*tabbed.tabbar-fg: 11
+URxvt*tabbed.tabbar-bg: 0
+URxvt*tabbed.tab-fg:    14
+URxvt*tabbed.tab-bg:    0
